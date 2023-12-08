@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        #button1 {
+            background-color: #3498db;
+        }
+
+        #button2 {
+            background-color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+
+<div class="button-container">
+    <button class="button" id="button1" onclick="loadPage('enter_data.html')">Enter Data</button>
+    <button class="button" id="button2">View Data</button>
+</div>
+
+</body>
+</html>
